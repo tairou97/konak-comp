@@ -16,19 +16,19 @@ const UberUns = () => {
       animate={{ scale: 1, y: 0 }}
       exit={{ scale: 0, y: "100%" }}
       transition={transition1}
-      className="section  "
+      className="section flex items-center justify-center  "
       id="about"
     >
-      <div className="container mx-auto h-full relative">
+      <div className="container mx-auto h-full relative ">
         {/* text & img wrapper */}
         <div
           className=" flex flex-col lg:flex-row  
         h-full items-center justify-center gap-x-24 
-        text-center lg:text-left lg:pt-16"
+        text-center lg:text-left lg:pt-16 "
         >
           {/* img */}
-          <div>
-            <div className="flex-1 max-h-96 lg:max-h-max order-2 lg:oder-none overflow-hidden rounded-xl">
+          <div className="mt-20 absolute top-16">
+            <div className="flex-1 max-h-96 lg:max-h-max order-2 lg:oder-none overflow-hidden rounded-xl ">
               <img src={TImg} alt="" />
             </div>
             <h2 className=" py-3">

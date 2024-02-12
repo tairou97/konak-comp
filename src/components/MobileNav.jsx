@@ -38,7 +38,7 @@ const MobileNav = () => {
       {/* Nav-Öffnen-Schaltfläche */}
       <div
         onClick={() => setOpenMenu(true)}
-        className="text-3xl cursor-pointer"
+        className="text-3xl cursor-pointer "
       >
         <CgMenuRight />
       </div>
@@ -47,14 +47,14 @@ const MobileNav = () => {
         variants={meunVariants}
         initial="hidden"
         animate={openMenu ? "show" : ""}
-        className="bg-white shadow-2xl w-full absolute top-0 right-0 max-w-xs h-screen z-20"
+        className="bg-green-200 shadow-2xl w-full absolute top-0 right-0 max-w-xs h-screen z-20 "
       >
         {/* Menüschließ-Icon */}
         <div onClick={() => setOpenMenu(false)}>
           <IoMdClose className="text-4xl absolute z-30 left-4 top-14 cursor-pointer text-primary" />
         </div>
 
-        <ul className="h-full flex flex-col justify-center items-center gap-y-8 text-primary font-primary font-bold text-3xl">
+        <ul className="h-full flex flex-col justify-center items-center gap-y-8 text-green-900 font-primary font-bold text-3xl">
           {Nav.map((nav) => (
             <li key={nav.id}>
               <Link to={nav.to}>{nav.name}</Link>

@@ -16,7 +16,7 @@ const UberUns = () => {
       animate={{ scale: 1, y: 0 }}
       exit={{ scale: 0, y: "100%" }}
       transition={transition1}
-      className="section  "
+      className="section top-40 "
       id="about"
     >
       <div className="container mx-auto h-full relative">
