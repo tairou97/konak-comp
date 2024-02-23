@@ -16,7 +16,7 @@ const UberUns = () => {
       animate={{ scale: 1, y: 0 }}
       exit={{ scale: 0, y: "100%" }}
       transition={transition1}
-      className="section relative top-48  flex justify-center items-center "
+      className="section relative top-44  flex justify-center items-center "
       id="about"
     >
       <div className=" top-40   flex justify-center items-center p-20 ">
