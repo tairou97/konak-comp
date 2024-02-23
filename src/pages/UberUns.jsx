@@ -16,10 +16,10 @@ const UberUns = () => {
       animate={{ scale: 1, y: 0 }}
       exit={{ scale: 0, y: "100%" }}
       transition={transition1}
-      className="section top-40 "
+      className="section top-50 "
       id="about"
     >
-      <div className="container mx-auto h-full relative">
+      <div className="container mx-auto relative flex justify-center items-center h-screen ">
         {/* text & img wrapper */}
         <div
           className=" flex flex-col lg:flex-row  
@@ -27,8 +27,8 @@ const UberUns = () => {
         text-center lg:text-left lg:pt-16"
         >
           {/* img */}
-          <div className="flex-1 max-h-96 lg:max-h-max order-2 lg:oder-none overflow-hidden rounded-2xl">
-            <img src={TImg} alt="" />
+          <div className="flex-1 max-h-96 lg:max-h-max order-2  rounded-2xl">
+            <img className="rounded-2xl w-auto" src={TImg} alt="" />
           </div>
           {/* text */}
           <motion.div
@@ -36,11 +36,9 @@ const UberUns = () => {
             animate={{ scale: 1, y: 0 }}
             exit={{ scale: 0, y: "-80%" }}
             transition={transition1}
-            onMouseEnter={mouserEnter}
-            onMouseLeave={mouseLeaverEnter}
             className="flex-1 pt-36 pb-14 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-start  text-green-900"
           >
-            <h1 className="h1">Über Uns</h1>
+            <h1 className="text-7xl font-bold my-6">Über Uns</h1>
             <p className=" mb-12 max-w-sm">
               Konak Facility Management wurde im Jahr 2011 gegründet und agiert
               vorwiegend im Bereich Berlin-Kreuzberg. <br /> <br /> Unser
@@ -55,7 +53,10 @@ const UberUns = () => {
               bestmögliche Betreuung sicherzustellen.
             </p>
             <div className="flex gap-5 flex-wrap justify-center">
-              <Link to={"/leistungen"} className="btn rounded-2xl bg-green-700">
+              <Link
+                to={"/leistungen"}
+                className="btn rounded-2xl text-green-700"
+              >
                 Unsere Leistungen
               </Link>
             </div>

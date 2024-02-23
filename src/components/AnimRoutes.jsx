@@ -21,6 +21,7 @@ const AnimRoutes = () => {
         <Route path="/kontakt" element={<Kontakt />} />
         <Route path="/impressum" element={<Impressum />} />
         <Route path="/datenschutz" element={<DatenSchutz />} />
+
         <Route path="*" element={<PageNotFound />} />
       </Routes>
     </AnimatePresence>
