@@ -16,14 +16,14 @@ const UberUns = () => {
       animate={{ scale: 1, y: 0 }}
       exit={{ scale: 0, y: "100%" }}
       transition={transition1}
-      className="section top-50 "
+      className="section relative top-48  flex justify-center items-center "
       id="about"
     >
-      <div className="container mx-auto  flex justify-center items-center  ">
+      <div className=" top-40   flex justify-center items-center p-20 ">
         {/* text & img wrapper */}
         <div
           className=" flex flex-col lg:flex-row  
-        h-full items-center justify-center gap-x-24 
+ items-center justify-center gap-x-24 
         text-center lg:text-left lg:pt-16"
         >
           {/* img */}
@@ -38,14 +38,15 @@ const UberUns = () => {
             transition={transition1}
             className="flex-1 pt-36 pb-14 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-start  text-green-900"
           >
-            <h1 className="text-7xl font-bold my-6">Über Uns</h1>
+            <h1 className="text-6xl font-bold my-6">Über Uns</h1>
             <p className=" mb-12 max-w-sm">
-              Konak Facility Management wurde im Jahr 2011 gegründet und agiert
-              vorwiegend im Bereich Berlin-Kreuzberg. <br /> <br /> Unser
-              Unternehmen bietet ein umfassendes Leistungsspektrum zur Pflege,
-              Instandhaltung und Werterhaltung von Immobilien sämtlicher Art an.
-              Unser vorrangiges Ziel ist es, die individuellen Anforderungen
-              unserer Kunden mit höchster Qualität zu erfüllen. <br /> <br />
+              <span className="font-bold">Konak Facility Management </span>{" "}
+              wurde im Jahr 2011 gegründet und agiert vorwiegend im Bereich
+              Berlin-Kreuzberg. <br /> <br /> Unser Unternehmen bietet ein
+              umfassendes Leistungsspektrum zur Pflege, Instandhaltung und
+              Werterhaltung von Immobilien sämtlicher Art an. Unser vorrangiges
+              Ziel ist es, die individuellen Anforderungen unserer Kunden mit
+              höchster Qualität zu erfüllen. <br /> <br />
               Wir passen unsere Dienstleistungen selbstverständlich an die
               spezifischen Bedürfnisse unserer Kunden sowie die diversen
               Gegebenheiten der Immobilien an. Detaillierte und maßgeschneiderte
