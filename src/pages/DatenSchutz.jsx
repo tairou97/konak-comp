@@ -9,18 +9,17 @@ import { CursorContext } from "../context/CursorContext";
 
 const Datenschutz = () => {
   return (
-    <motion.section transition={transition1} className="section    " id="about">
-      <div className="container  h-full ">
+    <motion.section transition={transition1} className="    " id="about">
+      <div className="   ">
         {/* text & img wrapper */}
         <div
-          className=" flex flex-col lg:flex-row  p-26
-        h-full items-center justify-center gap-x-24
-        text-center lg:text-left lg:pt-16"
+          className=" flex relative
+       "
         >
           {/* text */}
           <motion.div
             transition={transition1}
-            className="flex-12 pt-36 pb-14 p-20  lg:w-auto z-10 flex flex-col justify-center items-center lg:items-center  text-green-900 absolute top-0"
+            className="  text-green-900 relative top-20 p-10 md:p-20  "
           >
             <h1 className="h1">Datenschutzerklärung</h1>
             <p className="mb-5">
