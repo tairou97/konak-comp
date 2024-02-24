@@ -54,14 +54,6 @@ const UberUns = () => {
                   <BsTelephoneX className="bg-[#adbdac71] hover:bg-green-700 size-10 rounded-md  p-1 " />{" "}
                   Telefon
                 </a>
-                <a
-                  className="cursor-pointe flex items-center gap-2   p-1  "
-                  href="tel:+4915901611092"
-                  rel="noopener noreferrer"
-                >
-                  <BsTelephoneX className="bg-[#adbdac71] hover:bg-green-700 size-10 rounded-md  p-1 " />{" "}
-                  Telefon
-                </a>
               </li>
 
               <li>

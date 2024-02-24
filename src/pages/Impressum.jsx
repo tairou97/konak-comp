@@ -1,22 +1,19 @@
 import React from "react";
 import TImg from "../img/about/boss.png";
-
+import { BsTelephoneX } from "react-icons/bs";
+import { MdOutlineMarkEmailUnread } from "react-icons/md";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { transition1 } from "../transition";
-import { useContext } from "react";
-import { CursorContext } from "../context/CursorContext";
 
 const Impressum = () => {
-  const { mouserEnter, mouseLeaverEnter } = useContext(CursorContext);
-
   return (
     <motion.section
       initial={{ scale: 0, y: "100%" }}
       animate={{ scale: 1, y: 0 }}
       exit={{ scale: 0, y: "100%" }}
       transition={transition1}
-      className="section   "
+      className="section  "
       id="about"
     >
       <div className="container mx-auto h-full  ">
@@ -24,23 +21,18 @@ const Impressum = () => {
         <div
           className=" flex flex-col lg:flex-row  
         h-full items-center justify-center gap-x-24 
-        text-center lg:text-left lg:pt-16 "
+        text-center lg:text-left lg:pt-16  relative top-44"
         >
           {/* text */}
           <motion.div
-            initial={{ scale: 0, y: "-80%" }}
-            animate={{ scale: 1, y: 0 }}
-            exit={{ scale: 0, y: "-80%" }}
             transition={transition1}
-            onMouseEnter={mouserEnter}
-            onMouseLeave={mouseLeaverEnter}
-            className="flex-1 pt-36 pb-14 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-start  text-green-900 absolute top-0 "
+            className="flex-1 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-start  text-green-900 absolute top-0 p-20 "
           >
             <h1 className="h1">Impressum</h1>
             <div>
               <ul className=" text-lg">
                 <li>
-                  <b>Herr Hüseyin Konak</b>{" "}
+                  <b>Herr Hüseyin Konak</b>
                 </li>
                 <li>Konak Facility Management</li>
                 <li>Luckauer Str. 2</li>
@@ -48,23 +40,30 @@ const Impressum = () => {
               </ul>
             </div>
             <div className=" flex ">
-              <button
-                type="submit "
-                className="btn  my-6 rounded-xl bg-green-900"
-              >
-                <Link to="tel:01622465249">Tel</Link>
-              </button>
-
-              <button
-                type="submit "
-                className="  bg-green-900  btn  rounded-xl m-6  "
-              >
-                <Link to="mailto:buero@konak-fm.de">@mail</Link>
-              </button>
+              <ul className="my-5">
+                <li>
+                  <a
+                    className="cursor-pointer flex items-center gap-2  p-1 "
+                    href="mailto:buero@konak-fm.de"
+                  >
+                    <MdOutlineMarkEmailUnread className="bg-[#adbdac71] hover:bg-green-700 size-10 rounded-md  text-center  p-1" />{" "}
+                    Email
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="cursor-pointe flex items-center gap-2   p-1  "
+                    href="tel:01622465249"
+                    rel="noopener noreferrer"
+                  >
+                    <BsTelephoneX className="bg-[#adbdac71] hover:bg-green-700 size-10 rounded-md  p-1 " />{" "}
+                    Telefon
+                  </a>
+                </li>
+              </ul>
             </div>
-            <div className="">
+            <div className="py-10 flex flex-col justify-center items-center">
               <h3 className="font-bold text-2xl mb-5">
-                {" "}
                 Datenschutzerklärungen:
               </h3>
               <h4 className="font-bold ">Personenbezogene Daten</h4>
