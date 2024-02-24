@@ -39,7 +39,7 @@ const Start = () => {
             >
               Berlin, Kreuzberg
             </p>
-            <div className="flex gap-5 ">
+            <div className="flex gap-5  m-3">
               <Link
                 to={"/kontakt"}
                 className="btn mb-[30px] rounded-md  text-green-700"
