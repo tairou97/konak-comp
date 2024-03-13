@@ -26,7 +26,7 @@ const UberUns = () => {
         <div
           className=" flex flex-col lg:flex-row  
         h-full items-center justify-center gap-x-24 
-        lg:text-left lg:pt-16 "
+        lg:text-left lg:pt-16 impressum"
         >
           {/* img */}
           <div className="flex-1 max-h-96 lg:max-h-max order-2 lg:oder-none  rounded-2xl  text-green-900">

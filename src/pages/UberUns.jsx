@@ -21,7 +21,7 @@ const UberUns = () => {
       className="section flex justify-center items-center "
       id="about"
     >
-      <div className="container mx-auto h-full ">
+      <div className="uber container mx-auto h-full ">
         {/* text & img wrapper */}
         <div
           className=" flex flex-col lg:flex-row  
@@ -42,7 +42,7 @@ const UberUns = () => {
           >
             <h1 className="text-6xl font-bold my-6">Über Uns</h1>
             <p className=" mb-12 max-w-sm">
-              <span className="font-bold">Konak Facility Management </span>{" "}
+              <span className="font-bold">Konak Facility Management </span>
               wurde im Jahr 2011 gegründet und agiert vorwiegend im Bereich
               Berlin-Kreuzberg. <br /> <br /> Unser Unternehmen bietet ein
               umfassendes Leistungsspektrum zur Pflege, Instandhaltung und
@@ -59,7 +59,7 @@ const UberUns = () => {
             <div className="flex gap-5 flex-wrap justify-center">
               <Link
                 to={"/leistungen"}
-                className="btn rounded-2xl text-green-700"
+                className="btn rounded-2xl  text-black bg-[#a0a0a05e]   hover:bg-green-900 hover:text-white"
               >
                 Unsere Leistungen
               </Link>

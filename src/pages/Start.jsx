@@ -29,9 +29,14 @@ const Start = () => {
             className="w-full pt-36 pb-14 lg:pt-0 lg:pb-0
           lg:w-auto  z-10 lg:absolute flex flex-col justify-center text-green-700 items-center lg:items-start "
           >
-            <h1 className="h1 bg-[#ffffff78] rounded-md p-5 text-green-900 ">
-              Konak
-              <br /> Facility Management
+            <h1 className=" text-4xl   text-center bg-[#ffffff78] rounded-md p-5 text-green-900 ">
+              <span className="text-black">
+                Herzlich willkommen auf der offiziellen Webseite von
+                <span className="text-4xl  font-bold text-green-900">
+                  {" "}
+                  Konak Facility Management.
+                </span>
+              </span>
             </h1>
             <p
               className="text-[26px] lg:text-[36px] 
@@ -42,17 +47,17 @@ const Start = () => {
             <div className="flex gap-5  m-3">
               <Link
                 to={"/kontakt"}
-                className="btn mb-[30px] rounded-md  text-green-700"
+                className="btn text-lg mb-[30px] rounded-md bg-[#a0a0a05e]  text-black hover:bg-green-900 hover:text-white "
               >
                 Zur Kontakte
               </Link>
               <Link
                 to="mailto:konakcornelia.ck@gmail.com"
-                className="btn mb-[30px] rounded-md text-green-700"
+                className="btn text-lg mb-[30px] rounded-md text-black bg-[#a0a0a05e]   hover:bg-green-900 hover:text-white"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Mail Sie uns
+                Mailen Sie uns.
               </Link>
             </div>
           </motion.div>
@@ -64,7 +69,7 @@ const Start = () => {
               animate={{ scale: 1 }}
               exit={{ scale: 0 }}
               transition={transition1}
-              className=" relative lg:-right-40 overflow-hidden    "
+              className=" relative lg:-right-40     "
             >
               <motion.img
                 whileHover={{ scale: 1.1 }}
