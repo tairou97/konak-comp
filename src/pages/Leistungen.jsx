@@ -10,9 +10,9 @@ import { useContext } from "react";
 import { CursorContext } from "../context/CursorContext";
 import { Routes, Route, Link } from "react-router-dom";
 
-import Winter from "./uberuns/Winter";
+// import Winter from "./uberuns/Winter";
 // import Garten from "./uberuns/Garten";
-import Reinigung from "./uberuns/Reinigung";
+// import Reinigung from "./uberuns/Reinigung";
 
 const Leistungen = () => {
   const { mouserEnter, mouseLeaverEnter } = useContext(CursorContext);
@@ -169,11 +169,11 @@ const Leistungen = () => {
                 </li>
               ))}
 
-            <Routes>
-              <Route path="/winterdienst" element={<Winter />} />
-              {/* <Route path="/gartenpflege" element={<Garten />} /> */}
-              <Route path="/reinigungsarbeiten" element={<Reinigung />} />
-            </Routes>
+            {/* <Routes>
+              <Route path="/winterdienst" element={<Winter />} /> */}
+            {/* <Route path="/gartenpflege" element={<Garten />} /> */}
+            {/* <Route path="/reinigungsarbeiten" element={<Reinigung />} />
+            </Routes> */}
 
             {/* img  */}
           </div>

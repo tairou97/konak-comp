@@ -1,11 +1,13 @@
 import React from "react";
-import TImg from "../img/about/firma.png";
-
+import TImg1 from "../img/about/firma.png";
+import { BsTelephoneX } from "react-icons/bs";
+import { MdOutlineMarkEmailUnread } from "react-icons/md";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { transition1 } from "../transition";
 import { useContext } from "react";
 import { CursorContext } from "../context/CursorContext";
+import "../App.css";
 
 const UberUns = () => {
   const { mouserEnter, mouseLeaverEnter } = useContext(CursorContext);
@@ -16,19 +18,19 @@ const UberUns = () => {
       animate={{ scale: 1, y: 0 }}
       exit={{ scale: 0, y: "100%" }}
       transition={transition1}
-      className="section  flex justify-center items-center  "
+      className="section flex justify-center items-center pt-64 "
       id="about"
     >
-      <div className=" top-44   flex justify-center items-center p-20 ">
+      <div className="container mx-auto h-full ">
         {/* text & img wrapper */}
         <div
-          className=" flex flex-col lg:flex-row  absolute top-8 px-10
- items-center justify-center gap-x-24 
-        text-start"
+          className=" flex flex-col lg:flex-row  
+        h-full items-center justify-center gap-x-24 
+        text-center lg:text-left lg:pt-16"
         >
           {/* img */}
-          <div className="flex-1 max-h-96 lg:max-h-max order-2  rounded-2xl">
-            <img className="rounded-2xl w-auto" src={TImg} alt="" />
+          <div className="flex-1 max-h-96 lg:max-h-max order-2 lg:oder-none  rounded-2xl">
+            <img src={TImg1} alt="" className="rounded-2xl" />
           </div>
           {/* text */}
           <motion.div
@@ -36,7 +38,7 @@ const UberUns = () => {
             animate={{ scale: 1, y: 0 }}
             exit={{ scale: 0, y: "-80%" }}
             transition={transition1}
-            className="flex-1 pt-36 pb-14 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-start  text-green-900"
+            className=" kontakt  pt-36 pb-14 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-start  text-green-900  "
           >
             <h1 className="text-6xl font-bold my-6">Über Uns</h1>
             <p className=" mb-12 max-w-sm">
@@ -53,6 +55,7 @@ const UberUns = () => {
               Arbeitspläne sind ein fester Bestandteil unserer Verträge, um die
               bestmögliche Betreuung sicherzustellen.
             </p>
+
             <div className="flex gap-5 flex-wrap justify-center">
               <Link
                 to={"/leistungen"}
