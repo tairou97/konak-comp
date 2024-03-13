@@ -71,7 +71,7 @@ const Kontakt = () => {
             <div className="flex gap-5 flex-wrap justify-center my-4">
               <Link
                 to={"/leistungen"}
-                className="btn rounded-md text-green-700"
+                className="btn rounded-md bg-[#a0a0a05e]  text-black hover:bg-green-900 hover:text-white"
               >
                 Unsere Leistungen
               </Link>

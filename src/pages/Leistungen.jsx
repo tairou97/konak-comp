@@ -1,9 +1,10 @@
-import img from "../img/projects/b1.png";
-import Img0 from "../img/projects/b2.png";
-import Img1 from "../img/projects/b3.png";
-import Img2 from "../img/projects/b4.png";
-import Img3 from "../img/projects/b5.png";
-import Img4 from "../img/projects/b6.png";
+import Img from "../img/leistungen/winter.png";
+import Img0 from "../img/leistungen/garten.png";
+import Img1 from "../img/leistungen/reiningung.png";
+import Img2 from "../img/leistungen/transport.png";
+import Img3 from "../img/leistungen/hausmeister.png";
+import Img4 from "../img/leistungen/abbruch.png";
+import Img5 from "../img/leistungen/spachtel.png";
 import { motion } from "framer-motion";
 import { transition1 } from "../transition";
 import { useContext } from "react";
@@ -35,75 +36,66 @@ const Leistungen = () => {
     {
       id: 1,
       name: "Winterdienst",
+      title:
+        "Von der Schnee- und Eisbeseitigung über das Streuen bis zum Schneeabtransport",
       to: "/winterdienst",
       description:
-        "Unser erfahrenes Team, ausgestattet mit professionellem Equipment, kümmert sich das ganze Jahr über um sämtliche Aufgaben rund um Ihre Immobilie, sei es groß oder klein.",
-      img: Img0,
+        "Das Leistungsspektrum des Winterdienstes umfasst üblicherweise die Schnee- und Eisbeseitigung sowie den Streudienst auf Gehwegen und Verkehrsflächen, für die unsere Kunden gesetzlich zum Winterdienst verpflichtet sind. Das schließt gegebenenfalls den Schneeabtransport ein. Bei der Planung und Durchführung des Winterdienstes stützen wir uns nicht nur auf die lokalen Prognosen der Wetterdienste sondern prüfen bei Bedarf auch direkt vor Ort. Auf dieser Grundlage unterstützen wir unsere Kunden bei der Einhaltung aller in Berlin gültigen Vorschriften zum Winterdienst",
+      img: Img,
     },
-
     {
       id: 2,
-      name: "Gartenpflege",
+      name: "Gartenarbeiten",
+      title: "Gestaltung & Pflege von Grünanlagen",
       to: "/gartenpflege",
       description:
-        "Unser erfahrenes Team, ausgestattet mit professionellem Equipment, kümmert sich das ganze Jahr über um sämtliche Aufgaben rund um Ihre Immobilie, sei es groß oder klein.",
+        "Wir kümmern uns um den Aufbau und die Pflege von Grünanlagen an öffentlichen und privaten Gebäuden. Damit tragen wir zu einem jederzeit gepflegten äußeren Erscheinungsbild Ihrer Immobilien bei. Wir übernehmen unter anderem: - die Neuanpflanzungen und die Pflege von Vegetationsflächen der unterschiedlichsten Art - die Gestaltung von Außenflächen - Baumarbeiten - die Wartung und Pflege von Spielplätzen sowie Terrassen und Wegen",
+      img: Img0,
+    },
+    {
+      id: 3,
+      name: "Reinigungsarbeiten",
+      title: "Innen- & Außenreinigung",
+      to: "/reinigungsarbeiten",
+      description:
+        "Zu unserem Angebotsspektrum bei der Gebäudereinigung gehören alle Formen der klassischen Unterhaltsreinigung, die nach einem mit dem Kunden abgestimmten Plan erfolgt, der je nach Bedarf feste und variable Reinigungen beinhaltet. Bei der Innenreinigung übernehmen wir die Reinigung (einschließlich Grundreinigung) von: - Büros - Hausaufgängen und Fluren - Veranstaltungsräumen - Wohnungen - Treppenhäusern sowie die Bauzwischen- und Bauendreinigung. Für den Außenbereich bieten wir die Reinigung von Verkehrs- und Freiflächen wie z.B. Höfen, Wegen, Parkanlagen sowie Parkplätzen an.",
       img: Img1,
     },
 
     {
-      id: 3,
-      name: "Reinigungsarbeiten",
-      to: "/reinigungsarbeiten",
+      id: 4,
+      name: "Transportleistungen & Sperrmüllentsorgung",
+      to: "/transporte-entsorgung",
       description:
-        "Unser erfahrenes Team, ausgestattet mit professionellem Equipment, kümmert sich das ganze Jahr über um sämtliche Aufgaben rund um Ihre Immobilie, sei es groß oder klein.",
+        "Wir bieten Transportleistungen an, einschließlich des Aufladens und Abtransports von Haushaltsgegenständen sowie deren Entsorgung auf geeigneten Deponien oder Verwertung auf Recyclinghöfen. Umzüge sind jedoch nicht in unserem Leistungsspektrum enthalten.\n\nDarüber hinaus bieten wir Sperrmüllentsorgung an, einschließlich Entrümpelung von Kellern und Dachböden sowie Beseitigung von Unrat bei Haushaltsauflösungen. Wir übernehmen das Aufladen und den Abtransport von Sperrmüll zur Entsorgung auf geeigneten Deponien.",
       img: Img2,
     },
-
-    {
-      id: 4,
-      name: "Transporte & Entsorgung",
-      to: "/transporte-entsorgung",
-
-      description:
-        "Unser erfahrenes Team, ausgestattet mit professionellem Equipment, kümmert sich das ganze Jahr über um sämtliche Aufgaben rund um Ihre Immobilie, sei es groß oder klein.",
-      img: Img3,
-    },
-
     {
       id: 5,
-      name: "Hausmeisterservice",
-      to: "/hausmeisterservice",
+      name: "Hausmeisterarbeiten & Kleinreparaturen",
 
+      to: "/hausmeisterservice",
       description:
-        "Unser erfahrenes Team, ausgestattet mit professionellem Equipment, kümmert sich das ganze Jahr über um sämtliche Aufgaben rund um Ihre Immobilie, sei es groß oder klein.",
-      img: Img4,
+        "Zum vollständigen Facility-Management gehört auch die Hauswartung, die verschiedene Aufgaben umfasst: Überwachung der haustechnischen Anlagen und des Gesamtzustandes der Immobilie. Ausführung notwendiger technischer Wartungsarbeiten. Kontrolle der Dachflächen, Fassaden und Kellerräume auf Gefahrenstellen und Schäden. Schlüsseldienst. Durchführung von Kleinreparaturen jeglicher Art zur Werterhaltung Ihrer Immobilie.",
+      img: Img3,
     },
 
     {
       id: 6,
       name: "Abbrucharbeiten",
+
       to: "/abbrucharbeiten",
       description:
-        "Unser erfahrenes Team, ausgestattet mit professionellem Equipment, kümmert sich das ganze Jahr über um sämtliche Aufgaben rund um Ihre Immobilie, sei es groß oder klein.",
-      img: img,
+        "Zu unserem Leistungsspektrum gehören auch Abbrucharbeiten innerhalb und außerhalb von Gebäuden. Hierzu übernehmen wir selbstverständlich auch die Gestellung und Leerung notwendiger Container, einschließlich der Einholung von Genehmigungen und dem Absperren der Stellplätze.",
+      img: Img4,
     },
-
     {
       id: 7,
       name: "Putz und Spachtelarbeiten",
       to: "/putz-und-spachtelarbeiten",
       description:
-        "Unser erfahrenes Team, ausgestattet mit professionellem Equipment, kümmert sich das ganze Jahr über um sämtliche Aufgaben rund um Ihre Immobilie, sei es groß oder klein.",
-      img: img,
-    },
-
-    {
-      id: 8,
-      name: "Kleinreparaturen ",
-      to: "/kleinreparaturen",
-      description:
-        "Unser erfahrenes Team, ausgestattet mit professionellem Equipment, kümmert sich das ganze Jahr über um sämtliche Aufgaben rund um Ihre Immobilie, sei es groß oder klein.",
-      img: img,
+        "Zu unserem Leistungsspektrum gehören auch Putz- und Spachtelarbeiten an Wänden und Decken innerhalb von Gebäuden sowie Putzarbeiten an Fassaden.",
+      img: Img5,
     },
   ];
 
@@ -142,7 +134,7 @@ const Leistungen = () => {
             </p>
             <Link
               to={"/kontakt"}
-              className="btn mb-[30px] mx-auto lg:mx-0 rounded-xl  text-green-700"
+              className="btn mb-[30px] mx-auto lg:mx-0 rounded-xl  bg-[#a0a0a05e]  text-black hover:bg-green-900 hover:text-white"
             >
               Kontakt
             </Link>
@@ -162,6 +154,7 @@ const Leistungen = () => {
                     <h3 className="flex justify-center items-center text-green-900 text-3xl font-bold">
                       {un.name}
                     </h3>
+                    <h4 className="text-center">{un.title}</h4>
                   </Link>
                   <p className=" text-green-700 text-center  ">
                     {un.description}
