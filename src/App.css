@@ -12,13 +12,13 @@
 
 @media screen and (max-width: 420px) {
     .uber {
-        margin-top: 36rem;
+        margin-top: 38rem;
 
     }
 }
 
 @media screen and (max-width: 380px) {
     .uber {
-        margin-top: 50rem;
+        margin-top: 60rem;
     }
 }
