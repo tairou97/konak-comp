@@ -16,15 +16,15 @@ const UberUns = () => {
       animate={{ scale: 1, y: 0 }}
       exit={{ scale: 0, y: "100%" }}
       transition={transition1}
-      className="section relative top-44  flex justify-center items-center "
+      className="section  flex justify-center items-center  "
       id="about"
     >
       <div className=" top-44   flex justify-center items-center p-20 ">
         {/* text & img wrapper */}
         <div
-          className=" flex flex-col lg:flex-row  
+          className=" flex flex-col lg:flex-row  absolute top-8 px-10
  items-center justify-center gap-x-24 
-        text-center lg:text-left lg:pt-16"
+        text-start"
         >
           {/* img */}
           <div className="flex-1 max-h-96 lg:max-h-max order-2  rounded-2xl">
