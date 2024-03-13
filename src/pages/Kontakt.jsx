@@ -29,7 +29,7 @@ const UberUns = () => {
         text-center lg:text-left lg:pt-16"
         >
           {/* img */}
-          <div className="flex-1 max-h-96 lg:max-h-max order-2 lg:oder-none overflow-hidden rounded-2xl">
+          <div className="flex-1 max-h-96 lg:max-h-max order-2 lg:oder-none  rounded-2xl">
             <img src={TImg} alt="" />
           </div>
           {/* text */}
