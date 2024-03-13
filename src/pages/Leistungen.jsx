@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import img from "../img/projects/b1.png";
 import Img0 from "../img/projects/b2.png";
 import Img1 from "../img/projects/b3.png";
@@ -9,15 +8,29 @@ import { motion } from "framer-motion";
 import { transition1 } from "../transition";
 import { useContext } from "react";
 import { CursorContext } from "../context/CursorContext";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
 
 import Winter from "./uberuns/Winter";
-import Garten from "./uberuns/Garten";
+// import Garten from "./uberuns/Garten";
 import Reinigung from "./uberuns/Reinigung";
 
 const Leistungen = () => {
   const { mouserEnter, mouseLeaverEnter } = useContext(CursorContext);
 
+  const leistungenNav = [
+    { id: 1, name: "Winterdienst", to: "/winterdienst" },
+    { id: 2, name: "Gartenpflege", to: "/gartenpflege" },
+    { id: 3, name: "Reinigungsarbeiten", to: "/reinigungsarbeiten" },
+    { id: 4, name: "Transporte & Entsorgung", to: "/transporte-entsorgung" },
+    { id: 5, name: "Hausmeisterservice", to: "/hausmeisterservice" },
+    { id: 6, name: "Abbrucharbeiten", to: "/abbrucharbeiten" },
+    {
+      id: 7,
+      name: "Putz und Spachtelarbeiten",
+      to: "/putz-und-spachtelarbeiten",
+    },
+    { id: 8, name: "Kleinreparaturen ", to: "/kleinreparaturen" },
+  ];
   const uns = [
     {
       id: 1,
@@ -50,6 +63,7 @@ const Leistungen = () => {
       id: 4,
       name: "Transporte & Entsorgung",
       to: "/transporte-entsorgung",
+
       description:
         "Unser erfahrenes Team, ausgestattet mit professionellem Equipment, kümmert sich das ganze Jahr über um sämtliche Aufgaben rund um Ihre Immobilie, sei es groß oder klein.",
       img: Img3,
@@ -141,30 +155,25 @@ const Leistungen = () => {
               uns.map((un) => (
                 <li key={un.id} className="grid lg:gap-4  gap-5 m-5">
                   <img src={un.img} alt={un.name} />
-                  <h3 className="flex justify-center items-center text-green-900 text-3xl font-bold">
-                    {un.name}
-                  </h3>
+                  <Link
+                    to={un.to}
+                    className="text-green-900 text-2xl font-bold"
+                  >
+                    <h3 className="flex justify-center items-center text-green-900 text-3xl font-bold">
+                      {un.name}
+                    </h3>
+                  </Link>
                   <p className=" text-green-700 text-center  ">
                     {un.description}
                   </p>
                 </li>
               ))}
-            {/* <Routes>
-              <Route path="/winter" element={<Winter />} />
-              <Route path="/garten" element={<Garten />} />
-              <Route path="/reinigung" element={<Reinigung />} /> */}
-            {/* <Route
-            path="/transporte-entsorgung"
-            element={<TransporteEntsorgung />}
-          />
-          <Route path="/hausmeisterservice" element={<Hausmeisterservice />} />
-          <Route path="/abbrucharbeiten" element={<Abbrucharbeiten />} />
-          <Route
-            path="/putz-und-spachtelarbeiten"
-            element={<PutzUndSpachtelarbeiten />}
-          />
-          <Route path="/kleinreparaturen" element={<Kleinreparaturen />} /> */}
-            {/* </Routes> */}
+
+            <Routes>
+              <Route path="/winterdienst" element={<Winter />} />
+              {/* <Route path="/gartenpflege" element={<Garten />} /> */}
+              <Route path="/reinigungsarbeiten" element={<Reinigung />} />
+            </Routes>
 
             {/* img  */}
           </div>

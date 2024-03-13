@@ -17,9 +17,9 @@ const Start = () => {
       transition={transition1}
       className="section "
     >
-      <div className=" container mx-auto h-full relative ">
+      <div className=" container mx-auto h-96 relative ">
         {/* text & img wrapper */}
-        <div className="  flex flex-col justify-center ">
+        <div className="  flex flex-col justify-center  items-center">
           {/* text */}
           <motion.div
             initial={{ scale: 0, y: "-50%" }}

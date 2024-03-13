@@ -8,12 +8,19 @@ import { transition1 } from "../transition";
 
 const Impressum = () => {
   return (
-    <motion.section transition={transition1} className="section  " id="about">
+    <motion.section
+      initial={{ scale: 0, y: "100%" }}
+      animate={{ scale: 1, y: 0 }}
+      exit={{ scale: 0, y: "100%" }}
+      transition={transition1}
+      className="section  "
+      id="about"
+    >
       <div className="container mx-auto h-full  ">
         {/* text & img wrapper */}
         <div
-          className=" flex flex-col lg:flex-row  
-        h-full items-center justify-center gap-x-24 
+          className=" flex flex-col lg:flex-row
+        h-full items-center justify-center gap-x-24
         text-center lg:text-left lg:pt-16  relative top-44"
         >
           {/* text */}

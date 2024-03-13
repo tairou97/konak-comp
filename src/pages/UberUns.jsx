@@ -19,7 +19,7 @@ const UberUns = () => {
       className="section relative top-44  flex justify-center items-center "
       id="about"
     >
-      <div className=" top-40   flex justify-center items-center p-20 ">
+      <div className=" top-44   flex justify-center items-center p-20 ">
         {/* text & img wrapper */}
         <div
           className=" flex flex-col lg:flex-row  

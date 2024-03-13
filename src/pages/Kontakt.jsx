@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import { transition1 } from "../transition";
 import { useContext } from "react";
 import { CursorContext } from "../context/CursorContext";
+import "../App.css";
 
 const UberUns = () => {
   const { mouserEnter, mouseLeaverEnter } = useContext(CursorContext);
@@ -37,7 +38,7 @@ const UberUns = () => {
             animate={{ scale: 1, y: 0 }}
             exit={{ scale: 0, y: "-80%" }}
             transition={transition1}
-            className="flex-1 pt-36 pb-14 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-start  text-green-900"
+            className=" kontakt  pt-36 pb-14 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-start  text-green-900  "
           >
             <h1 className="h1">Kontakt</h1>
             <ul>

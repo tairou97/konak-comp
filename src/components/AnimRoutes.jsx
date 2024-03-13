@@ -2,7 +2,7 @@ import React from "react";
 
 import PageNotFound from "../pages/PageNotFound";
 import { Route, Routes, useLocation } from "react-router-dom";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence } from "framer-motion";
 import Start from "../pages/Start";
 import UberUns from "../pages/UberUns";
 import Impressum from "../pages/Impressum";
@@ -18,6 +18,7 @@ const AnimRoutes = () => {
         <Route path="/" element={<Start />} />
         <Route path="/über-uns" element={<UberUns />} />
         <Route path="/leistungen" element={<Leistungen />} />
+
         <Route path="/kontakt" element={<Kontakt />} />
         <Route path="/impressum" element={<Impressum />} />
         <Route path="/datenschutz" element={<DatenSchutz />} />
