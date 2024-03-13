@@ -9,7 +9,7 @@ import { useContext } from "react";
 import { CursorContext } from "../context/CursorContext";
 import "../App.css";
 
-const UberUns = () => {
+const Kontakt = () => {
   const { mouserEnter, mouseLeaverEnter } = useContext(CursorContext);
 
   return (
@@ -83,4 +83,4 @@ const UberUns = () => {
   );
 };
 
-export default UberUns;
+export default Kontakt;

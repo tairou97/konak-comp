@@ -22,3 +22,23 @@
         margin-top: 40rem;
     }
 }
+
+
+@media screen and (max-width: 500px) {
+    .kontakt {
+        margin-top: 10rem;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .kontakt {
+        margin-top: 10rem;
+
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .kontakt {
+        margin-top: 25rem;
+    }
+}
