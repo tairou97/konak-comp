@@ -18,7 +18,7 @@ const UberUns = () => {
       animate={{ scale: 1, y: 0 }}
       exit={{ scale: 0, y: "100%" }}
       transition={transition1}
-      className="section flex justify-center items-center py-72 "
+      className="section flex justify-center items-center "
       id="about"
     >
       <div className="container mx-auto h-full ">
@@ -26,7 +26,7 @@ const UberUns = () => {
         <div
           className=" flex flex-col lg:flex-row  
         h-full items-center justify-center gap-x-24 
-        text-center lg:text-left lg:pt-16"
+        text-center lg:text-left lg:pt-16  mt-64"
         >
           {/* img */}
           <div className="flex-1 max-h-96 lg:max-h-max order-2 lg:oder-none  rounded-2xl">
