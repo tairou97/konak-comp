@@ -15,7 +15,7 @@ const Start = () => {
       animate={{ scale: 1 }}
       exit={{ scale: 0 }}
       transition={transition1}
-      className="section "
+      className="section  "
     >
       <div className=" container mx-auto h-96 relative ">
         {/* text & img wrapper */}

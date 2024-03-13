@@ -18,10 +18,10 @@ const UberUns = () => {
       animate={{ scale: 1, y: 0 }}
       exit={{ scale: 0, y: "100%" }}
       transition={transition1}
-      className="section flex justify-center items-center "
+      className="section flex justify-center items-center  "
       id="about"
     >
-      <div className="uber container mx-auto h-full ">
+      <div className=" container mx-auto h-full uber">
         {/* text & img wrapper */}
         <div
           className=" flex flex-col lg:flex-row  
@@ -38,7 +38,7 @@ const UberUns = () => {
             animate={{ scale: 1, y: 0 }}
             exit={{ scale: 0, y: "-80%" }}
             transition={transition1}
-            className=" kontakt  pt-36 pb-14 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-start  text-green-900  "
+            className="   pt-36 pb-14 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-start  text-green-900  "
           >
             <h1 className="text-6xl font-bold my-6">Über Uns</h1>
             <p className=" mb-12 max-w-sm">
@@ -59,7 +59,7 @@ const UberUns = () => {
             <div className="flex gap-5 flex-wrap justify-center">
               <Link
                 to={"/leistungen"}
-                className="btn rounded-2xl  text-black bg-[#a0a0a05e]   hover:bg-green-900 hover:text-white"
+                className="btn rounded-2xl  bg-[#a0a0a05e]  text-black hover:bg-green-900 hover:text-white"
               >
                 Unsere Leistungen
               </Link>
