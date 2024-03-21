@@ -2,6 +2,7 @@
     padding: 40px;
     margin: 10px;
     width: 80%;
+
 }
 
 
@@ -75,12 +76,16 @@
 @media screen and (max-width: 500px) {
     .kontakt {
         margin-top: 10rem;
+        display: flex;
+        justify-content: start;
     }
 }
 
 @media screen and (max-width: 420px) {
     .kontakt {
         margin-top: 10rem;
+        display: flex;
+        justify-content: start;
 
     }
 }
@@ -88,5 +93,13 @@
 @media screen and (max-width: 380px) {
     .kontakt {
         margin-top: 25rem;
+
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .kontakt {
+        margin-top: 38rem;
+
     }
 }

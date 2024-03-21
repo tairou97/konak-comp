@@ -1,5 +1,5 @@
 import React from "react";
-import TImg from "../img/about/boss.png";
+import TImg from "../img/contact/konta.png";
 import { BsTelephoneX } from "react-icons/bs";
 import { MdOutlineMarkEmailUnread } from "react-icons/md";
 import { Link } from "react-router-dom";
@@ -30,7 +30,7 @@ const Kontakt = () => {
         >
           {/* img */}
           <div className="flex-1 max-h-96 lg:max-h-max order-2 lg:oder-none  rounded-2xl">
-            <img src={TImg} alt="" />
+            <img className=" rounded-2xl" src={TImg} alt="" />
           </div>
           {/* text */}
           <motion.div

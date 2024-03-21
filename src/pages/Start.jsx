@@ -28,7 +28,7 @@ const Start = () => {
             exit={{ scale: 0, y: "-50%" }}
             transition={transition1}
             className="w-full pt-36 pb-14 lg:pt-0 lg:pb-0
-          lg:w-auto  z-10 lg:absolute flex flex-col justify-center text-green-700 items-center lg:items-start  "
+          lg:w-auto  z-10 lg:absolute right-96 flex flex-col justify-center text-green-700 items-center lg:items-start  "
           >
             <h1 className="konak-w text-4xl   text-center bg-[#42424278] rounded-md p-5  text-white">
               Herzlich willkommen auf der offiziellen Webseite von
@@ -39,7 +39,7 @@ const Start = () => {
             </h1>
             <p
               className="text-[26px] lg:text-[36px] 
-            font-primary mb-4 lg:mb-12 ml-4   text-green-950 shadow-xl"
+            font-primary mb-4 lg:mb-12 ml-4   text-green-950 shadow-xl  bg-[#42424278] mt-2 rounded-md  p-1"
             >
               Berlin, Kreuzberg
             </p>
