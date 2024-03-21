@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import TImg from "../img/contact/start.png";
+import TImg from "../img/header/rasen.png";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { transition1 } from "../transition";
@@ -51,7 +51,7 @@ const Start = () => {
                 Zur Kontakte
               </Link>
               <Link
-                to="mailto:konakcornelia.ck@gmail.com"
+                to="mailto:buero@konak-fm.de"
                 className="btn text-lg mb-[30px] rounded-md px-5 text-white bg-[#000000b8]   hover:bg-green-900 hover:text-white"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -68,7 +68,7 @@ const Start = () => {
               animate={{ scale: 1 }}
               exit={{ scale: 0 }}
               transition={transition1}
-              className="  lg:-right-40     "
+              className="  lg:-right-40    "
             >
               <motion.img
                 className="h-screen img-start"

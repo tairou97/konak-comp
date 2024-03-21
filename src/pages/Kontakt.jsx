@@ -44,8 +44,8 @@ const Kontakt = () => {
             <ul>
               <li className=" mb-2 max-w-sm">Herr Hüseyin Konak</li>
               <li className=" mb-2 max-w-sm">Konak Facility Management</li>
-              <li className=" mb-2 max-w-sm">Kottbusser Damm 25</li>
-              <li className=" mb-2 max-w-sm">10967 Berlin</li>
+              <li className=" mb-2 max-w-sm">Luckauer Str. 2</li>
+              <li className=" mb-2 max-w-sm">10969 Berlin</li>
               <li>
                 <a
                   className="cursor-pointe flex items-center gap-2   p-1  "
