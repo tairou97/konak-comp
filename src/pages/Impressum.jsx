@@ -23,13 +23,52 @@ const UberUns = () => {
     >
       <div className="container mx-auto h-full ">
         {/* text & img wrapper */}
-        <div
-          className=" flex flex-col lg:flex-row  
-        h-full items-center justify-center gap-x-24 
-        lg:text-left lg:pt-16 impressum"
-        >
+        <div className=" impressum">
+          {" "}
+          <motion.div
+            initial={{ scale: 0, y: "-80%" }}
+            animate={{ scale: 1, y: 0 }}
+            exit={{ scale: 0, y: "-80%" }}
+            transition={transition1}
+            className=" kontakt   text-green-900  "
+          >
+            <h1 className="h1">Impressum</h1>
+            <div>
+              <ul className=" text-lg">
+                <li>
+                  <b>Herr Hüseyin Konak</b>
+                </li>
+                <li>Konak Facility Management</li>
+                <li>Luckauer Str. 2</li>
+                <li>10969 Berlin</li>
+              </ul>
+            </div>
+            <div className=" flex ">
+              <ul className="my-5">
+                <li>
+                  <a
+                    className="cursor-pointer flex items-center  gap-2  p-1 "
+                    href="mailto:buero@konak-fm.de"
+                  >
+                    <MdOutlineMarkEmailUnread className="bg-[#adbdac71] hover:bg-green-700 size-10 rounded-md  text-center  p-1" />{" "}
+                    Email
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="cursor-pointe flex items-center gap-2   p-1  "
+                    href="tel:01622465249"
+                    rel="noopener noreferrer"
+                  >
+                    <BsTelephoneX className="bg-[#adbdac71] hover:bg-green-700 size-10 rounded-md  p-1 " />{" "}
+                    Telefon
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </motion.div>
           {/* img */}
-          <div className="flex-1 max-h-96 lg:max-h-max order-2 lg:oder-none  rounded-2xl  text-green-900">
+          <div className="  rounded-2xl  text-green-900">
             <h3 className="font-bold text-2xl mb-5  mx-5">
               Datenschutzerklärungen:
             </h3>
@@ -87,48 +126,6 @@ const UberUns = () => {
             </p>
           </div>
           {/* text */}
-          <motion.div
-            initial={{ scale: 0, y: "-80%" }}
-            animate={{ scale: 1, y: 0 }}
-            exit={{ scale: 0, y: "-80%" }}
-            transition={transition1}
-            className=" kontakt  pt-36 pb-14 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-start  text-green-900  "
-          >
-            <h1 className="h1">Impressum</h1>
-            <div>
-              <ul className=" text-lg">
-                <li>
-                  <b>Herr Hüseyin Konak</b>
-                </li>
-                <li>Konak Facility Management</li>
-                <li>Luckauer Str. 2</li>
-                <li>10969 Berlin</li>
-              </ul>
-            </div>
-            <div className=" flex ">
-              <ul className="my-5">
-                <li>
-                  <a
-                    className="cursor-pointer flex items-center  gap-2  p-1 "
-                    href="mailto:buero@konak-fm.de"
-                  >
-                    <MdOutlineMarkEmailUnread className="bg-[#adbdac71] hover:bg-green-700 size-10 rounded-md  text-center  p-1" />{" "}
-                    Email
-                  </a>
-                </li>
-                <li>
-                  <a
-                    className="cursor-pointe flex items-center gap-2   p-1  "
-                    href="tel:01622465249"
-                    rel="noopener noreferrer"
-                  >
-                    <BsTelephoneX className="bg-[#adbdac71] hover:bg-green-700 size-10 rounded-md  p-1 " />{" "}
-                    Telefon
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </motion.div>
         </div>
       </div>
     </motion.section>

@@ -53,7 +53,7 @@ const Kontakt = () => {
                   rel="noopener noreferrer"
                 >
                   <BsTelephoneX className="bg-[#adbdac71] hover:bg-green-700 size-10 rounded-md  p-1 " />{" "}
-                  Telefon
+                  Telefon: 01622465249
                 </a>
               </li>
 
