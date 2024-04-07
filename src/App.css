@@ -1,7 +1,9 @@
-.kontakt {
+.about {
+    position: relative;
+    top: 10rem;
     padding: 40px;
 
-    width: 80%;
+    width: 100%;
 
 }
 
@@ -66,9 +68,17 @@
 
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (min-width: 299px) {
     .uber {
-        margin-top: 40rem;
+        margin-top: 20rem;
+
+    }
+}
+
+@media screen and (min-width: 180px) {
+    .uber {
+        margin-top: 20rem;
+
     }
 }
 
@@ -88,15 +98,15 @@
 }
 
 @media screen and (max-width: 380px) {
-    .kontakt {
-        margin-top: 25rem;
-
+    .about {
+        position: relative;
+        top: 10rem;
     }
 }
 
 @media screen and (max-width: 280px) {
-    .kontakt {
-        margin-top: 38rem;
-
+    .about {
+        position: relative;
+        top: 5rem;
     }
 }

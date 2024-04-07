@@ -1,5 +1,5 @@
 import React from "react";
-import TImg from "../img/about/boss.png";
+
 import { BsTelephoneX } from "react-icons/bs";
 import { MdOutlineMarkEmailUnread } from "react-icons/md";
 import { Link } from "react-router-dom";
@@ -18,32 +18,32 @@ const UberUns = () => {
       animate={{ scale: 1, y: 0 }}
       exit={{ scale: 0, y: "100%" }}
       transition={transition1}
-      className="section top-40 "
+      className=" about"
       id="about"
     >
-      <div className="container mx-auto h-full ">
+      <div className=" ">
         {/* text & img wrapper */}
-        <div className=" impressum">
+        <div className=" ">
           {" "}
           <motion.div
             initial={{ scale: 0, y: "-80%" }}
             animate={{ scale: 1, y: 0 }}
-            exit={{ scale: 0, y: "-80%" }}
+            exit={{ scale: 0, y: "80%" }}
             transition={transition1}
             className=" kontakt   text-green-900  "
           >
-            <h1 className="h1">Impressum</h1>
-            <div>
-              <ul className=" text-lg">
-                <li>
-                  <b>Herr Hüseyin Konak</b>
-                </li>
-                <li>Konak Facility Management</li>
-                <li>Luckauer Str. 2</li>
-                <li>10969 Berlin</li>
-              </ul>
-            </div>
-            <div className=" flex ">
+            <h1 className="h1  p-5">Impressum</h1>
+
+            <ul className=" text-lg p-5">
+              <li>
+                <b>Herr Hüseyin Konak</b>
+              </li>
+              <li>Konak Facility Management</li>
+              <li>Luckauer Str. 2</li>
+              <li>10969 Berlin</li>
+            </ul>
+
+            <div className=" flex   p-5">
               <ul className="my-5">
                 <li>
                   <a
@@ -60,7 +60,7 @@ const UberUns = () => {
                     href="tel:01622465249"
                     rel="noopener noreferrer"
                   >
-                    <BsTelephoneX className="bg-[#adbdac71] hover:bg-green-700 size-10 rounded-md  p-1 " />{" "}
+                    <BsTelephoneX className="bg-[#adbdac71] hover:bg-green-700 size-10 rounded-md  p-1 " />
                     Telefon
                   </a>
                 </li>
