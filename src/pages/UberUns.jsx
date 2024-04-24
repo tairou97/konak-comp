@@ -1,5 +1,6 @@
 import React from "react";
-import TImg1 from "../img/about/firma.png";
+
+import TImg1 from "../img/header/logo-transparent-png.png";
 import { BsTelephoneX } from "react-icons/bs";
 import { MdOutlineMarkEmailUnread } from "react-icons/md";
 import { Link } from "react-router-dom";
