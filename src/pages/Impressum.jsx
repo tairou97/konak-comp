@@ -60,15 +60,15 @@ const UberUns = () => {
             </li>
           </ul>
         </div>
-      </motion.div>
+        {/* </motion.div>
       {/* img */}
-      <motion.div
+        {/* <motion.div 
         initial={{ scale: 0, y: "-80%" }}
         animate={{ scale: 1, y: 0 }}
         exit={{ scale: 0, y: "80%" }}
         transition={transition1}
         className="  rounded-2xl  text-green-900"
-      >
+      > */}
         <h3 className="font-bold text-2xl mb-5  mx-5">
           Datenschutzerklärungen:
         </h3>
