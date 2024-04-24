@@ -33,7 +33,6 @@ const UberUns = () => {
             className=" kontakt   text-green-900  "
           >
             <h1 className="h1  p-5">Impressum</h1>
-
             <ul className=" text-lg p-5">
               <li>
                 <b>Herr Hüseyin Konak</b>
@@ -85,7 +84,15 @@ const UberUns = () => {
               Adresse oder E-Mail-Adresse werden soweit möglich auf freiwilliger
               Basis erhoben. Ohne Ihre Einwilligung erfolgt keine Weitergabe der
               Daten an Dritte. Quelle der Datenschutzerklärung:
-              https://www.anwalt.de
+              <Link
+                to="https://www.anwalt.de"
+                target="_blank"
+                rel="noopener noreferrer"
+                className=" text-green-950"
+              >
+                {" "}
+                https://www.anwalt.de
+              </Link>
             </p>
             <h4 className="font-bold text-lg mt-5 mx-5">
               Datenschutzerklärung für Google Maps von Google Inc.

@@ -119,7 +119,7 @@ const Leistungen = () => {
             animate={{ scale: 1, y: 0 }}
             exit={{ scale: 0, y: "-80%" }}
             transition={transition1}
-            className="flex flex-col  text-lg justify-center items-center  text-green-900"
+            className="flex   text-lg justify-center items-center  text-green-900"
           >
             <h1 className="h1"> Unsere Leistungen</h1>
             <p className=" mb-12  p-5">
@@ -156,7 +156,7 @@ const Leistungen = () => {
                     </h3>
                     <h4 className="text-center">{un.title}</h4>
                   </Link>
-                  <p className=" text-green-700 text-center  ">
+                  <p className=" text-green-900 text-center  ">
                     {un.description}
                   </p>
                 </li>
