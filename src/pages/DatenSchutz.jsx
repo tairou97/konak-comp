@@ -874,7 +874,7 @@ const Datenschutz = () => {
                 Diese Datenschutzerklärung wurde durch den
                 Datenschutzerklärungs-Generator der DGD Deutsche Gesellschaft
                 für Datenschutz GmbH, die als{" "}
-                <a
+                <a className="font-bold"
                   href="https://dg-datenschutz.de/datenschutz-dienstleistungen/externer-datenschutzbeauftragter/"
                   rel="nofollow"
                 >
