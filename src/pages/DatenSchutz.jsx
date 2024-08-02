@@ -874,7 +874,8 @@ const Datenschutz = () => {
                 Diese Datenschutzerklärung wurde durch den
                 Datenschutzerklärungs-Generator der DGD Deutsche Gesellschaft
                 für Datenschutz GmbH, die als{" "}
-                <a className="font-bold"
+                <a
+                  className="font-bold"
                   href="https://dg-datenschutz.de/datenschutz-dienstleistungen/externer-datenschutzbeauftragter/"
                   rel="nofollow"
                   className="text-green-900 underline font-bold"
@@ -882,12 +883,8 @@ const Datenschutz = () => {
                   Datenschutzbeauftragter
                 </a>{" "}
                 tätig ist, in Kooperation mit den{" "}
-<<<<<<< HEAD
-                <a className="font-bold"
-=======
                 <a
-                  className="text-green-900 underline font-bold"
->>>>>>> 3f8941e (done)
+                  className="font-bold"
                   href="https://www.wbs-law.de/it-recht/datenschutzrecht"
                   rel="nofollow"
                 >
