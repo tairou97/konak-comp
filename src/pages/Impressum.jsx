@@ -88,7 +88,7 @@ const UberUns = () => {
             to="https://www.anwalt.de"
             target="_blank"
             rel="noopener noreferrer"
-            className=" text-green-950"
+            className=" text-green-900 underline font-bold"
           >
             {" "}
             https://www.anwalt.de
@@ -112,16 +112,16 @@ const UberUns = () => {
           darüber wie „Google Maps“ und der Routenplaner Ihre Daten verwenden
           sowie die Datenschutzerklärung von Google finden Sie unter:{" "}
           <a
-            className=" text-green-950"
+            className=" text-green-900 underline font-bold"
             href=" https://www.google.com/intl/de_de/help/terms_maps.html"
             target="_blank"
             rel="noopener noreferrer"
           >
             www.google.com/intl/de_de/help/terms_maps.html
-          </a>
-          Quelle der Datenschutzerklärung:
+          </a>{" "}
+          Quelle der Datenschutzerklärung:{" "}
           <a
-            className=" text-green-950"
+            className=" text-green-900 underline font-bold"
             href="https://www.juraforum.de"
             target="_blank"
             rel="noopener noreferrer"

@@ -5,6 +5,7 @@ import Img2 from "../img/leistungen/transport.png";
 import Img3 from "../img/leistungen/hausmeister.png";
 import Img4 from "../img/leistungen/abbruch.png";
 import Img5 from "../img/leistungen/spachtel.png";
+import Img6 from "../img/leistungen/parking.png";
 import { motion } from "framer-motion";
 import { transition1 } from "../transition";
 import { useContext } from "react";
@@ -96,6 +97,15 @@ const Leistungen = () => {
       description:
         "Zu unserem Leistungsspektrum gehören auch Putz- und Spachtelarbeiten an Wänden und Decken innerhalb von Gebäuden sowie Putzarbeiten an Fassaden.",
       img: Img5,
+    },
+
+    {
+      id: 7,
+      name: "Parkplatzreinigung",
+      to: "/parkplatzreinigung",
+      description:
+        "Wir bieten die Reinigung von Parkplätzen an, einschließlich der Entfernung von Unrat und Laub .",
+      img: Img6,
     },
   ];
 
