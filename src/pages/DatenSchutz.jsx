@@ -877,29 +877,35 @@ const Datenschutz = () => {
                 <a className="font-bold"
                   href="https://dg-datenschutz.de/datenschutz-dienstleistungen/externer-datenschutzbeauftragter/"
                   rel="nofollow"
+                  className="text-green-900 underline font-bold"
                 >
                   Datenschutzbeauftragter
-                </a>
+                </a>{" "}
                 tätig ist, in Kooperation mit den{" "}
+<<<<<<< HEAD
                 <a className="font-bold"
+=======
+                <a
+                  className="text-green-900 underline font-bold"
+>>>>>>> 3f8941e (done)
                   href="https://www.wbs-law.de/it-recht/datenschutzrecht"
                   rel="nofollow"
                 >
                   Datenschutz Anwälten der Kanzlei WILDE BEUGER SOLMECKE |
                   Rechtsanwälte
-                </a>
+                </a>{" "}
                 erstellt. Mit freundlicher Unterstützung von{" "}
                 <a
                   href="https://www.byteforest.de/webdesign/webdesigner-berlin"
                   title="Webdesigner Berlin"
-                  className="color:#000; text-decoration:none;"
+                  className="color:#000; text-decoration:none; text-green-900 underline font-bold"
                 >
                   BYTEFOREST
-                </a>
+                </a>{" "}
                 <a
                   href="https://www.byteforest.de"
                   title="Webdesign Berlin"
-                  className="color:#000; text-decoration:none;"
+                  className="color:#000; text-decoration:none; text-green-900 underline font-bold"
                 >
                   Webdesign Berlin
                 </a>
