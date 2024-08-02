@@ -822,7 +822,7 @@ const Datenschutz = () => {
                 unserer Geschäftstätigkeit zugunsten des Wohlergehens all
                 unserer Mitarbeiter und unserer Anteilseigner.
               </p>
-              <h4>
+              <h4 className="font-bold mt-4 mb-3">
                 9. Dauer, für die die personenbezogenen Daten gespeichert werden
               </h4>
               <p>
