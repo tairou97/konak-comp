@@ -883,7 +883,7 @@ const Datenschutz = () => {
                 </a>{" "}
                 tätig ist, in Kooperation mit den{" "}
                 <a
-                  className="font-bold"
+                  className="text-green-900 underline font-bold"
                   href="https://www.wbs-law.de/it-recht/datenschutzrecht"
                   rel="nofollow"
                 >
