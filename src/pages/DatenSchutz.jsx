@@ -898,14 +898,14 @@ const Datenschutz = () => {
                 <a
                   href="https://www.byteforest.de/webdesign/webdesigner-berlin"
                   title="Webdesigner Berlin"
-                  className="color:#000; text-decoration:none; text-green-900 underline font-bold"
+                  className=" text-green-900 underline font-bold"
                 >
                   BYTEFOREST
                 </a>{" "}
                 <a
                   href="https://www.byteforest.de"
                   title="Webdesign Berlin"
-                  className="color:#000; text-decoration:none; text-green-900 underline font-bold"
+                  className=" text-green-900 underline font-bold"
                 >
                   Webdesign Berlin
                 </a>
