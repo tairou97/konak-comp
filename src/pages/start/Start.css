@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "Boxing";
+  src: url("../../assets/Boxing-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Chillax_Medium";
+  src: url("../../assets/Chillax-Medium.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Chillax_Semibold";
+  src: url("../../assets/Chillax-Semibold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ChashDispay";
+  src: url("../../assets/ClashDisplay-Variable.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gambarino";
+  src: url("../../assets/Gambarino-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pally";
+  src: url("../../assets/Pally-Variable.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Supreme";
+  src: url("../../assets/Supreme-VariableItalic.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+.startContainer .startBoxContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 20px 140px 20px;
+}
+.startContainer .startBoxContainer .StartImg {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 60px;
+}
+.startContainer .startBoxContainer .StartImg img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  width: 100%;
+  height: 70%;
+  border-radius: 0.3rem;
+}
+.startContainer .startBoxContainer .textStart {
+  display: flex;
+  justify-content: center;
+}
+.startContainer .startBoxContainer .textStart h1 {
+  color: #04783a;
+  font-weight: 300;
+  font-size: 6vw;
+  font-family: ChashDispay;
+  text-transform: uppercase;
+  text-align: center;
+}
+.startContainer .leistungContainer h1 {
+  color: #04783a;
+  font-weight: 700;
+  font-size: 3rem;
+  font-family: ChashDispay;
+  text-transform: uppercase;
+}
+.startContainer .leistungContainer .leistung {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: min-content;
+  width: 100%;
+  padding: 0;
+  position: relative;
+}
+.startContainer .leistungContainer .leistung .offer {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.startContainer .leistungContainer .leistung .offer img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  filter: grayscale(50%);
+  filter: opacity(100%);
+}
+.startContainer .leistungContainer .leistung .offer img:hover {
+  filter: grayscale(0%);
+  filter: opacity(70%);
+}
+.startContainer .leistungContainer .leistung .offer h1 {
+  font-size: clamp(2rem, 2.4vw, 2rem);
+  font-weight: 800;
+  color: #000;
+  font-family: "ChashDispay", sans-serif;
+  margin-top: 20px;
+}
+.startContainer .leistungContainer .leistung .offer .btnStart {
+  color: #707070;
+  margin-top: 10px;
+}
+.startContainer .leistungContainer .leistung .offer .btnStart {
+  font-family: "Gambarino", serif;
+  font-family: "ChashDispay", sans-serif;
+  border: none;
+  font-size: clamp(1.5rem, 1.8vw, 1.2rem);
+  cursor: pointer;
+}/*# sourceMappingURL=Start.css.map */

@@ -3,7 +3,7 @@ import React from "react";
 import PageNotFound from "../pages/PageNotFound";
 import { Route, Routes, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
-import Start from "../pages/Start";
+import Start from "../pages/start/Start";
 import UberUns from "../pages/UberUns";
 import Impressum from "../pages/Impressum";
 import DatenSchutz from "../pages/DatenSchutz";

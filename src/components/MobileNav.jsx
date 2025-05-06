@@ -34,11 +34,11 @@ const MobileNav = () => {
   }, [location]);
 
   return (
-    <nav className="text-primary xl:hidden">
+    <nav className="text-primary xl:hidden nav ">
       {/* Nav-Öffnen-Schaltfläche */}
       <div
         onClick={() => setOpenMenu(true)}
-        className="text-3xl cursor-pointer "
+        className="  text-3xl cursor-pointer absolute top-4 right-6 z-30  text-[#04783a]"
       >
         <CgMenuRight />
       </div>

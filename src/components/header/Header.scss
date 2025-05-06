@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Boxing';
+    src: url('../../assets/Boxing-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Chillax_Medium';
+    src: url('../../assets/Chillax-Medium.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Chillax_Semibold';
+    src: url('../../assets/Chillax-Semibold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ChashDispay';
+    src: url('../../assets/ClashDisplay-Variable.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gambarino';
+    src: url('../../assets/Gambarino-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pally';
+    src: url('../../assets/Pally-Variable.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Supreme';
+    src: url('../../assets/Supreme-VariableItalic.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.headerContainer {
+    position: fixed;
+    width: 100%;
+    z-index: 30;
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width: 1024px) {
+    .headerContainer {}
+}
+
+
+
+
+// =============Header Box==========
+
+.headerBox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 20px 0px 20px;
+}
+
+@media (min-width: 1024px) {
+    .headerBox {
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+// =============Img Header ==========
+.imgHeader {
+    max-width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+// ================Nav Link=================
+.navLink {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+
+
+.navLink a {
+    font-size: 1.1rem;
+    color: #04783a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    font-family: Chillax_Medium;
+    text-transform: uppercase;
+}
+
+@media (min-width: 1280px) {
+    .navLink {
+        display: flex;
+        list-style: none;
+        gap: 3rem;
+        /* gap-x-12 */
+        font-weight: 600;
+        /* font-semibold */
+    }
+
+    .navLink a {
+        font-size: 1.25rem;
+        /* text-xl */
+        color: #047857;
+        /* text-green-700 */
+        transition: all 0.3s ease-in-out;
+        text-decoration: none;
+    }
+
+    .navLink a:hover {
+        color: var(--primary);
+        /* hover:text-primary */
+    }
+}
+
+
+
+// .imgHeader {}

@@ -1,5 +1,4 @@
 import React from "react";
-import TImg from "../img/about/boss.png";
 
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
@@ -9,7 +8,7 @@ import { CursorContext } from "../context/CursorContext";
 
 const Datenschutz = () => {
   return (
-    <motion.section transition={transition1} className="    " id="about">
+    <section transition={transition1} className="    " id="about">
       <div className="   ">
         {/* text & img wrapper */}
         <div
@@ -17,7 +16,7 @@ const Datenschutz = () => {
        "
         >
           {/* text */}
-          <motion.div
+          <div
             transition={transition1}
             className="  text-green-900 relative top-20 p-10 md:p-20  "
           >
@@ -907,10 +906,10 @@ const Datenschutz = () => {
                 </a>
               </p>
             </div>
-          </motion.div>
+          </div>
         </div>
       </div>
-    </motion.section>
+    </section>
   );
 };
 

@@ -1,5 +1,5 @@
 import React from "react";
-import TImg from "../img/header/logo-transparent-png.png";
+import TImg from "../../public/img/header/logo-transparent-png.png";
 import { BsTelephoneX } from "react-icons/bs";
 import { MdOutlineMarkEmailUnread } from "react-icons/md";
 import { Link } from "react-router-dom";
@@ -13,7 +13,7 @@ const Kontakt = () => {
   const { mouserEnter, mouseLeaverEnter } = useContext(CursorContext);
 
   return (
-    <motion.section
+    <section
       initial={{ scale: 0, y: "100%" }}
       animate={{ scale: 1, y: 0 }}
       exit={{ scale: 0, y: "100%" }}
@@ -33,7 +33,7 @@ const Kontakt = () => {
             <img className=" rounded-2xl" src={TImg} alt="" />
           </div>
           {/* text */}
-          <motion.div
+          <div
             initial={{ scale: 0, y: "-80%" }}
             animate={{ scale: 1, y: 0 }}
             exit={{ scale: 0, y: "-80%" }}
@@ -76,10 +76,10 @@ const Kontakt = () => {
                 Unsere Leistungen
               </Link>
             </div>
-          </motion.div>
+          </div>
         </div>
       </div>
-    </motion.section>
+    </section>
   );
 };
 

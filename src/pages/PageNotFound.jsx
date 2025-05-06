@@ -4,7 +4,7 @@ import { transition1 } from "../transition";
 import { Link } from "react-router-dom";
 const PageNotFound = () => {
   return (
-    <motion.section
+    <section
       initial={{ scale: 0, y: "100%" }}
       animate={{ scale: 1, y: 0 }}
       exit={{ scale: 0, y: "100%" }}
@@ -26,7 +26,7 @@ const PageNotFound = () => {
           Back to home
         </Link>
       </div>
-    </motion.section>
+    </section>
   );
 };
 

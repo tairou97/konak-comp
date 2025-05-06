@@ -1,6 +1,6 @@
 import React from "react";
 
-import TImg1 from "../img/header/logo-transparent-png.png";
+import TImg1 from "../../public/img/header/logo-transparent-png.png";
 import { BsTelephoneX } from "react-icons/bs";
 import { MdOutlineMarkEmailUnread } from "react-icons/md";
 import { Link } from "react-router-dom";
@@ -14,7 +14,7 @@ const UberUns = () => {
   const { mouserEnter, mouseLeaverEnter } = useContext(CursorContext);
 
   return (
-    <motion.section
+    <section
       initial={{ scale: 0, y: "100%" }}
       animate={{ scale: 1, y: 0 }}
       exit={{ scale: 0, y: "100%" }}
@@ -34,7 +34,7 @@ const UberUns = () => {
             <img src={TImg1} alt="" className="rounded-2xl" />
           </div>
           {/* text */}
-          <motion.div
+          <div
             initial={{ scale: 0, y: "-80%" }}
             animate={{ scale: 1, y: 0 }}
             exit={{ scale: 0, y: "-80%" }}
@@ -65,10 +65,10 @@ const UberUns = () => {
                 Unsere Leistungen
               </Link>
             </div>
-          </motion.div>
+          </div>
         </div>
       </div>
-    </motion.section>
+    </section>
   );
 };
 

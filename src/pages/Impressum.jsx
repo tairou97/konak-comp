@@ -13,14 +13,14 @@ const UberUns = () => {
   const { mouserEnter, mouseLeaverEnter } = useContext(CursorContext);
 
   return (
-    <motion.section
+    <section
       initial={{ scale: 0, y: "100%" }}
       animate={{ scale: 1, y: 0 }}
       exit={{ scale: 0, y: "100%" }}
       transition={transition1}
       className=" about"
     >
-      <motion.div
+      <div
         initial={{ scale: 0, y: "-80%" }}
         animate={{ scale: 1, y: 0 }}
         exit={{ scale: 0, y: "80%" }}
@@ -129,9 +129,9 @@ const UberUns = () => {
             www.juraforum.de
           </a>
         </p>
-      </motion.div>
+      </div>
       {/* text */}
-    </motion.section>
+    </section>
   );
 };
 

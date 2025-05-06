@@ -1,0 +1,119 @@
+{
+    "short": [
+      {
+        "id": 1,
+        "name": "Winterdienst",        
+        "to": "/winterdienst",
+        "img": "/img/leistungen/winter.png"
+      },
+      {
+        "id": 2,
+        "name": "Gartenarbeiten",   
+        "to": "/gartenpflege",
+        "img": "/img/leistungen/garten.png"
+      },
+      {
+        "id": 3,
+        "name": "Reinigungsarbeiten",  
+         "to": "/reinigungsarbeiten",
+        "img": "/img/leistungen/reiningung.png"
+      },
+      {
+        "id": 4,
+        "name": "Transportleistungen & Sperrmüllentsorgung",
+        "to": "//transporte-entsorgung",
+        "img": "/img/leistungen/transport.png"
+      },
+      {
+        "id": 5,
+        "name": "Hausmeisterarbeiten & Kleinreparaturen",
+        "to": "/hausmeisterservice",
+        "img": "/img/leistungen/hausmeister.png"
+      },
+      {
+        "id": 6,
+        "name": "Abbrucharbeiten",
+        "to": "/abbrucharbeiten",
+        "img": "/img/leistungen/abbruch.png"
+      },
+      {
+        "id": 7,
+        "name": "Putz und Spachtelarbeiten",
+        "to": "//putz-und-spachtelarbeiten",
+        "img": "/img/leistungen/spachtel.png"
+      },
+      {
+        "id": 8,
+        "name": "Parkplatzreinigung",
+        "to": "/parkplatzreinigung",
+        "img": "/img/leistungen/parking.png"
+      }
+    ],
+    "detailed": [
+      {
+        "id": 1,
+        "name": "Winterdienst",
+        "title": "Von der Schnee- und Eisbeseitigung über das Streuen bis zum Schneeabtransport",
+        "to": "/winterdienst",
+        "description": "Das Leistungsspektrum des Winterdienstes umfasst üblicherweise die Schnee- und Eisbeseitigung sowie den Streudienst auf Gehwegen und Verkehrsflächen, für die unsere Kunden gesetzlich zum Winterdienst verpflichtet sind. Das schließt gegebenenfalls den Schneeabtransport ein. Bei der Planung und Durchführung des Winterdienstes stützen wir uns nicht nur auf die lokalen Prognosen der Wetterdienste sondern prüfen bei Bedarf auch direkt vor Ort. Auf dieser Grundlage unterstützen wir unsere Kunden bei der Einhaltung aller in Berlin gültigen Vorschriften zum Winterdienst.",
+    "img": "/img/leistungen/winter.png"
+      },
+      {
+        "id": 2,
+        "name": "Gartenarbeiten",
+        "title": "Gestaltung & Pflege von Grünanlagen",
+        "to": "/gartenpflege",
+        "description": "Wir kümmern uns um den Aufbau und die Pflege von Grünanlagen an öffentlichen und privaten Gebäuden. Damit tragen wir zu einem jederzeit gepflegten äußeren Erscheinungsbild Ihrer Immobilien bei. Wir übernehmen unter anderem: - die Neuanpflanzungen und die Pflege von Vegetationsflächen der unterschiedlichsten Art - die Gestaltung von Außenflächen - Baumarbeiten - die Wartung und Pflege von Spielplätzen sowie Terrassen und Wegen.",
+    "img": "/img/leistungen/garten.png"
+      },
+      {
+        "id": 3,
+        "name": "Reinigungsarbeiten",
+        "title": "Innen- & Außenreinigung",
+        "to": "/reinigungsarbeiten",
+        "description": "Zu unserem Angebotsspektrum bei der Gebäudereinigung gehören alle Formen der klassischen Unterhaltsreinigung, die nach einem mit dem Kunden abgestimmten Plan erfolgt, der je nach Bedarf feste und variable Reinigungen beinhaltet. Bei der Innenreinigung übernehmen wir die Reinigung (einschließlich Grundreinigung) von: - Büros - Hausaufgängen und Fluren - Veranstaltungsräumen - Wohnungen - Treppenhäusern sowie die Bauzwischen- und Bauendreinigung. Für den Außenbereich bieten wir die Reinigung von Verkehrs- und Freiflächen wie z.B. Höfen, Wegen, Parkanlagen sowie Parkplätzen an.",
+         "img": "/img/leistungen/reiningung.png"
+      },
+      {
+        "id": 4,
+        "name": "Transportleistungen & Sperrmüllentsorgung",
+        "title": "",
+        "to": "/transporte-entsorgung",
+        "description": "Wir bieten Transportleistungen an, einschließlich des Aufladens und Abtransports von Haushaltsgegenständen sowie deren Entsorgung auf geeigneten Deponien oder Verwertung auf Recyclinghöfen. Umzüge sind jedoch nicht in unserem Leistungsspektrum enthalten. Darüber hinaus bieten wir Sperrmüllentsorgung an, einschließlich Entrümpelung von Kellern und Dachböden sowie Beseitigung von Unrat bei Haushaltsauflösungen. Wir übernehmen das Aufladen und den Abtransport von Sperrmüll zur Entsorgung auf geeigneten Deponien.",
+        "img": "/img/leistungen/transport.png"
+      },
+      {
+        "id": 5,
+        "name": "Hausmeisterarbeiten & Kleinreparaturen",
+        "title": "",
+        "to": "/hausmeisterservice",
+        "description": "Zum vollständigen Facility-Management gehört auch die Hauswartung, die verschiedene Aufgaben umfasst: Überwachung der haustechnischen Anlagen und des Gesamtzustandes der Immobilie. Ausführung notwendiger technischer Wartungsarbeiten. Kontrolle der Dachflächen, Fassaden und Kellerräume auf Gefahrenstellen und Schäden. Schlüsseldienst. Durchführung von Kleinreparaturen jeglicher Art zur Werterhaltung Ihrer Immobilie.",
+      "img": "/img/leistungen/hausmeister.png"
+      },
+      {
+        "id": 6,
+        "name": "Abbrucharbeiten",
+        "title": "",
+        "to": "/abbrucharbeiten",
+        "description": "Zu unserem Leistungsspektrum gehören auch Abbrucharbeiten innerhalb und außerhalb von Gebäuden. Hierzu übernehmen wir selbstverständlich auch die Gestellung und Leerung notwendiger Container, einschließlich der Einholung von Genehmigungen und dem Absperren der Stellplätze.",
+        "img": "/img/leistungen/abbruch.png"
+      },
+      {
+        "id": 7,
+        "name": "Putz und Spachtelarbeiten",
+        "title": "",
+        "to": "/putz-und-spachtelarbeiten",
+        "description": "Zu unserem Leistungsspektrum gehören auch Putz- und Spachtelarbeiten an Wänden und Decken innerhalb von Gebäuden sowie Putzarbeiten an Fassaden.",
+        "img": "/img/leistungen/spachtel.png"
+      },
+      {
+        "id": 8,
+        "name": "Parkplatzreinigung",
+        "title": "",
+        "to": "/parkplatzreinigung",
+        "description": "Wir bieten die Reinigung von Parkplätzen an, einschließlich der Entfernung von Unrat und Laub.",
+        "img": "/img/leistungen/parking.png"
+      }
+    ]
+  }
+  
