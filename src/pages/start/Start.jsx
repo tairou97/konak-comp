@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import TImg from "../../../public/img/header/haupt3.jpeg";
+import TImg1 from "../../../public/img/header/haupt4.jpeg";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { transition1 } from "../../transition";
@@ -60,23 +61,32 @@ const Start = () => {
           <h1>Konak Facility Management</h1>
         </div>
 
-        <div className="  ">
+        <div className=" textStartContainer">
+          <div className=" textStartImg ">
+            <img src={TImg1} alt="" />
+          </div>
+          
           {/* text */}
           <div
-            initial={{ scale: 0, y: "-50%" }}
-            animate={{ scale: 1, y: 0 }}
-            exit={{ scale: 0, y: "-50%" }}
-            transition={transition1}
-            className=" "
+            // initial={{ scale: 0, y: "-50%" }}
+            // animate={{ scale: 1, y: 0 }}
+            // exit={{ scale: 0, y: "-50%" }}
+            // transition={transition1}
+            className="textStart-p "
           >
-            <h1 className="">
-              Herzlich willkommen auf der offiziellen Webseite von
-              <span className=""> Konak Facility Management.</span>
-            </h1>
+            <p>
+              Grünpflege, Winterdienst, Reinigung und Hausmeisterservice –
+              zuverlässig. effizient. alles aus einer Hand.
+            </p>
             <p className="">Berlin, Kreuzberg</p>
-            <div className=" ">
-              <Link to={"/kontakt"} className="btnStart ">
-                Zur Kontakte
+            <div className="btn-kontakt">
+              {" "}
+              <Link
+                to={"/kontakt"}
+                className="btnStart "
+                aria-label="Kontaktseite aufrufen"
+              >
+                Zum Kontakt
               </Link>
               <Link
                 to="mailto:buero@konak-fm.de"
@@ -90,19 +100,19 @@ const Start = () => {
           </div>
         </div>
         <div className="leistungContainer">
-          <h1>Leistungen</h1>{" "}
-          <div className="leistung">
+          <h1>Unsere Leistungen</h1>
+          <div className="leistungGrid">
             {leistungen.short &&
               leistungen.short.map((leistung) => (
-                <div key={leistung.id} className="offer">
-                  <Link to={leistung.to} className="btnStart">
+                <div key={leistung.id} className="leistungCard">
+                  <Link to={leistung.to} className="leistungImageWrapper">
                     <img
-                      src={leistung.img} // Dynamisches Laden des Bildes
+                      src={leistung.img}
                       alt={leistung.name}
-                      className="offerImage"
-                    />{" "}
+                      className="leistungImage"
+                    />
                   </Link>
-                  <h1>{leistung.name}</h1>
+                  <h2 className="leistungTitle">{leistung.name}</h2>
                 </div>
               ))}
           </div>
